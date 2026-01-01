@@ -1,0 +1,11 @@
+networks:
+  - input_path: imx500_people/people_int8_mct.onnx
+    intrinsics:
+      task: classification
+      inference_rate: 10
+      classes:
+        labels: ["boris", "eva", "tsetso"]
+      cpu:
+        softmax: true
+output_dir: imx500_people/conv_out_cfg
+overwrite_output: true

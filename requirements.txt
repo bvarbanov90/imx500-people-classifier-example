@@ -1,0 +1,9 @@
+tqdm
+pillow
+jsonschema
+numpy<2
+torch
+torchvision
+model-compression-toolkit==2.3.0
+edgemdt-tpc==1.1.0
+opencv-python-headless==4.9.0.80

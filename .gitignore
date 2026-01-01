@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local data / outputs
+frames/
+venvs/
+imx500-py311/
+imx500-py313/
+imx500_people/conv_*/
+imx500_people/*.onnx
+imx500_people/*.onnx.data
+imx500_people/*.pt
+*.rpk
+packerOut.zip
+*.cpio
+
+# Editor
+.vscode/
+.idea/
